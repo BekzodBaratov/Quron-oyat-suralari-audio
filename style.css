@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-image: url(./imgaes/ashkan-forouzani-7blIFp0kFP4-unsplash.jpg);
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  background-color: #0000008a;
+  padding: 2rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.table table,
+.table th,
+.table td {
+  border: 1px solid #f0f0f0;
+  border-collapse: collapse;
+  color: #f0f0f0;
+  padding: 0.5rem 2rem;
+  text-align: center;
+}
+.table p {
+  color: #f0f0f0;
+  cursor: pointer;
+}
+.table p:hover {
+  text-decoration: underline;
+}
+.popup {
+  position: fixed;
+  background-color: cadetblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  border-radius: 1rem;
+  border: 0;
+  padding: 1rem;
+  color: #f0f0f0;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: baseline;
+
+  display: none;
+}
+.popup .popupEn {
+  margin-bottom: 0;
+}
+.popup .popupArab {
+  align-self: flex-end;
+}
+
+.suralar:hover {
+  border: 1px solid blue;
+}
